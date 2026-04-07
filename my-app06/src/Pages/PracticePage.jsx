@@ -29,7 +29,6 @@ function ProductCard() {
 
 function TextInput() {
     const [text, setText] = useState("");
-
     const handleChange = (e) => setText(e.target.value);
 
     return (
