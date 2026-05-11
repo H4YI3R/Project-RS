@@ -1,0 +1,20 @@
+.layout {
+  display: flex;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.left-panel {
+  flex: 1.2;
+}
+
+.right-panel {
+  flex: 0.8;
+}
+
+@media (max-width: 800px) {
+  .layout {
+    flex-direction: column;
+  }
+}

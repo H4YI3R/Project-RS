@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./Compoment//JSX/Header";
+import Header from "./Compoment/JSX/Header";
 import LessonPage from "./Pages/LessonPage";
 import PracticePage from "./Pages/PracticePage";
 import AssignmentPage from "./Pages/AssignmentPage.jsx";
@@ -18,7 +18,7 @@ function App() {
           <Route path="/assignment" element={<AssignmentPage />} />
         </Routes>
       </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
