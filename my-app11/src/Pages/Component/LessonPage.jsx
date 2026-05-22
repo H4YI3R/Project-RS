@@ -1,12 +1,4 @@
-import {
-    useCallback,
-    useEffect,
-    useMemo,
-    useReducer,
-    useRef,
-    useState,
-} from "react";
-
+import {useCallback, useEffect, useMemo, useReducer, useRef, useState,} from "react";
 import "../CSS/LessonPage.css";
 
 const initialTodos = [];

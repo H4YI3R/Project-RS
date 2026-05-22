@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Component/JSX/Header";
-import LessonPage from "./Pages/JSX/LessonPage";
-import PracticePage from "./Pages/JSX/PracticePage";
-import AssignmentPage from "./Pages/JSX/AssignmentPage";
+import LessonPage from "./Pages/Component/LessonPage";
+import PracticePage from "./Pages/Component/PracticePage";
+import AssignmentPage from "./Pages/Component/AssignmentPage";
 
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'

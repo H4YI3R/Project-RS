@@ -1,15 +1,9 @@
-/* =========================
-   RESET
-========================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* =========================
-   BODY
-========================= */
 body {
   width: 100%;
   height: 100vh;
@@ -22,18 +16,12 @@ body {
   font-family: "Pretendard", sans-serif;
 }
 
-/* =========================
-   HR
-========================= */
 hr {
   border: none;
   height: 1px;
   background: rgba(255,255,255,0.08);
 }
 
-/* =========================
-   MAIN SECTION
-========================= */
 #center {
   width: 100%;
   height: calc(100vh - 90px);
@@ -50,9 +38,6 @@ hr {
   padding: 20px;
 }
 
-/* =========================
-   HERO
-========================= */
 .hero {
   position: relative;
 
@@ -64,9 +49,6 @@ hr {
   align-items: center;
 }
 
-/* =========================
-   BASE IMAGE
-========================= */
 .base {
   width: 150px;
   height: auto;
@@ -78,9 +60,6 @@ hr {
   filter: drop-shadow(0 0 10px rgba(255,255,255,0.15));
 }
 
-/* =========================
-   REACT LOGO
-========================= */
 .framework {
   position: absolute;
 
@@ -93,9 +72,6 @@ hr {
   filter: drop-shadow(0 0 16px rgba(97,218,251,0.8));
 }
 
-/* =========================
-   VITE LOGO
-========================= */
 .vite {
   position: absolute;
 
