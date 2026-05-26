@@ -1,0 +1,103 @@
+/* PracticePage.css */
+
+.practice-container {
+    width: 430px;
+    margin: 40px auto;
+    padding: 25px;
+
+    background-color: #ffffff;
+
+    border-radius: 18px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+    font-family: Arial, sans-serif;
+}
+
+.practice-title {
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    color: #222;
+}
+
+.weather-box {
+    margin-top: 20px;
+}
+
+.weather-box h2 {
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    color: #333;
+}
+
+.weather-box label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+    color: #444;
+}
+
+.city-select {
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    background-color: white;
+
+    color: #222;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+}
+
+.weather-info {
+    margin-top: 20px;
+    padding: 18px;
+
+    background-color: #f5f7fa;
+
+    border-radius: 12px;
+
+    color: #222;
+}
+
+.weather-info h3 {
+    margin-bottom: 15px;
+
+    color: #111;
+}
+
+.weather-info p {
+    margin: 10px 0;
+
+    font-size: 16px;
+
+    color: #222;
+}
+
+.loading-text {
+    margin-top: 20px;
+
+    text-align: center;
+
+    color: #666;
+}
+
+.practice-container hr,
+.weather-box hr {
+    margin: 20px 0;
+
+    border: none;
+    border-top: 1px solid #ddd;
+}

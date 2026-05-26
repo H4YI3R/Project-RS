@@ -1,0 +1,51 @@
+.lesson-container {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    background-color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+.lesson-title {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.weather-box h2 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.city-select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.weather-info {
+    margin-top: 15px;
+    padding: 15px;
+
+    background-color: #f5f5f5;
+    border-radius: 8px;
+
+    color: black;
+}
+
+.loading-text {
+    margin-top: 15px;
+    color: black;
+}
+.weather-info h3,
+.weather-info p {
+    color: black;
+}

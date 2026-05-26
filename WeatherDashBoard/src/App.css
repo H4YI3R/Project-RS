@@ -1,0 +1,259 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   ROOT LAYOUT
+========================= */
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+/* =========================
+   BODY
+========================= */
+
+body {
+  width: 100%;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  background: #0f172a;
+  color: #f8fafc;
+
+  font-family: "Pretendard", sans-serif;
+}
+
+/* =========================
+   APP LAYOUT
+========================= */
+
+.app-layout {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+}
+
+/* =========================
+   HR
+========================= */
+
+hr {
+  border: none;
+  height: 1px;
+
+  background: rgba(255,255,255,0.08);
+}
+
+/* =========================
+   CENTER
+========================= */
+
+#center {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  gap: 24px;
+
+  padding: 20px;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  position: relative;
+
+  width: 260px;
+  height: 260px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.base {
+  width: 150px;
+  height: auto;
+
+  z-index: 2;
+
+  object-fit: contain;
+
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.15));
+}
+
+.framework {
+  position: absolute;
+
+  width: 120px;
+
+  top: 35px;
+
+  animation: rotate 12s linear infinite;
+
+  filter: drop-shadow(0 0 16px rgba(97,218,251,0.8));
+}
+
+.vite {
+  position: absolute;
+
+  width: 75px;
+
+  bottom: 28px;
+
+  animation: float 2.5s ease-in-out infinite;
+
+  filter: drop-shadow(0 0 14px rgba(255,214,46,0.8));
+}
+
+/* =========================
+   TEXT
+========================= */
+
+#center > div:last-of-type {
+  max-width: 650px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+
+  margin-bottom: 12px;
+
+  background: linear-gradient(90deg, #61dafb, #646cff);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+
+  color: #cbd5e1;
+
+  word-break: keep-all;
+}
+
+code {
+  background: rgba(255,255,255,0.08);
+
+  padding: 3px 8px;
+
+  border-radius: 6px;
+
+  color: #61dafb;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.counter {
+  padding: 14px 28px;
+
+  border: none;
+  border-radius: 14px;
+
+  background: linear-gradient(135deg, #646cff, #61dafb);
+
+  color: white;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+
+  box-shadow: 0 10px 25px rgba(100,108,255,0.35);
+}
+
+.counter:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 14px 32px rgba(100,108,255,0.45);
+}
+
+.counter:active {
+  transform: scale(0.96);
+}
+
+/* =========================
+   ANIMATION
+========================= */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* =========================
+   NOTEBOOK
+========================= */
+
+@media (max-width: 768px) {
+
+  .hero {
+    width: 220px;
+    height: 220px;
+  }
+
+  .framework {
+    width: 95px;
+  }
+
+  .vite {
+    width: 60px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
